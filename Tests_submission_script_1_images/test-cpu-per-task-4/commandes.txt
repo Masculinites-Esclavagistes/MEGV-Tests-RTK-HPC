@@ -1,0 +1,6 @@
+(env) (baobab)-[philipm@login1 rtk]$ sbatch submission.sh
+Submitted batch job 925484
+(env) (baobab)-[philipm@login1 rtk]$ squeue -j925484
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+            925484 debug-cpu submissi  philipm  R       0:12      1 cpu001
+(env) (baobab)-[philipm@login1 rtk]$ 

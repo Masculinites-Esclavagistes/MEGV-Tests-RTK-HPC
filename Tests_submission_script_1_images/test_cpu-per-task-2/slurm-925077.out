@@ -1,0 +1,55 @@
+=====
+============DATETIME=========
+Mon Jun 30 04:12:06 PM CEST 2025
+RTK running
+[Task] Segment
+Using default Kraken line segmenter.
+[Subtask] Checking prior processed documents:   0%|          | 0/13 [00:00<?, ?it/s][Subtask] Checking prior processed documents: 100%|██████████| 13/13 [00:00<00:00, 1500.69it/s]
+[Subtask] Processing YALTAi segmenter command:   0%|          | 0/13 [00:00<?, ?it/s][Subtask] Processing YALTAi segmenter command:   8%|▊         | 1/13 [06:54<1:22:59, 414.96s/it][Subtask] Processing YALTAi segmenter command:   8%|▊         | 1/13 [07:00<1:24:01, 420.13s/it]
+INPUT SIZE DIFF WITH OUTPUT SIZE
+[]
+
+INPUT SIZE DIFF WITH OUTPUT SIZE
+[]
+INPUT SIZE DIFF WITH OUTPUT SIZE
+['', 'image 1/1 /home/users/p/philipm/rtk/images/t4/FRCAOM06_COLE_241001A_0047.JPG: 1280x832 1 MainZone, 6648.6ms', 'Speed: 13.2ms preprocess, 6648.6ms inference, 5.8ms postprocess per image at shape (1, 3, 1280, 832)', '[06/30/25 16:18:51] INFO     Vectorizing baselines                                                                                                                                                                                                                                               blla.py:211', '[06/30/25 16:19:03] INFO     Compute reading order on 33 lines in lr direction                                                                                                                                                                                                            segmentation.py:93', 'INFO     Perform topological sort on partially ordered lines                                                                                                                                                                                                         segmentation.py:139', 'INFO     Compute reading order on 5 lines in lr direction                                                                                                                                                                                                             segmentation.py:93', 'INFO     Perform topological sort on partially ordered lines                                                                                                                                                                                                         segmentation.py:139', 'INFO     Serializing as alto into /home/users/p/philipm/rtk/images/t4/FRCAOM06_COLE_241001A_0047.xml                                                                                                                                                                         krakn.py:63', 'INFO     Serialize 37 records from /home/users/p/philipm/rtk/images/t4/FRCAOM06_COLE_241001A_0047.JPG with template alto.                                                                                                                                           serialization.py:109', '']
+INPUT SIZE DIFF WITH OUTPUT SIZE
+['', 'image 1/1 /home/users/p/philipm/rtk/images/t4/FRCAOM06_COLE_241001A_0047.JPG: 1280x832 1 MainZone, 6648.6ms', 'Speed: 13.2ms preprocess, 6648.6ms inference, 5.8ms postprocess per image at shape (1, 3, 1280, 832)', '[06/30/25 16:18:51] INFO     Vectorizing baselines                                                                                                                                                                                                                                               blla.py:211', '[06/30/25 16:19:03] INFO     Compute reading order on 33 lines in lr direction                                                                                                                                                                                                            segmentation.py:93', 'INFO     Perform topological sort on partially ordered lines                                                                                                                                                                                                         segmentation.py:139', 'INFO     Compute reading order on 5 lines in lr direction                                                                                                                                                                                                             segmentation.py:93', 'INFO     Perform topological sort on partially ordered lines                                                                                                                                                                                                         segmentation.py:139', 'INFO     Serializing as alto into /home/users/p/philipm/rtk/images/t4/FRCAOM06_COLE_241001A_0047.xml                                                                                                                                                                         krakn.py:63', 'INFO     Serialize 37 records from /home/users/p/philipm/rtk/images/t4/FRCAOM06_COLE_241001A_0047.JPG with template alto.                                                                                                                                           serialization.py:109', '']
+[Task] Clean-Up Serialization
+[Subtask] Checking prior processed documents:   0%|          | 0/1 [00:00<?, ?it/s][Subtask] Checking prior processed documents: 100%|██████████| 1/1 [00:00<00:00, 168.39it/s]
+[Subtask] Cleaning...:   0%|          | 0/1 [00:00<?, ?it/s][Subtask] Cleaning...: 100%|██████████| 1/1 [00:00<00:00, 175.33it/s]
+[Task] OCR
+[Subtask] Checking prior processed documents:   0%|          | 0/1 [00:00<?, ?it/s][Subtask] Checking prior processed documents: 100%|██████████| 1/1 [00:00<00:00, 257.21it/s]
+[Subtask] Processing Kraken recognizer command:   0%|          | 0/1 [00:00<?, ?it/s][Subtask] Processing Kraken recognizer command: 100%|██████████| 1/1 [00:57<00:00, 57.41s/it][Subtask] Processing Kraken recognizer command: 100%|██████████| 1/1 [00:58<00:00, 58.22s/it]
+[Task] Extract
+[Subtask] Checking prior processed documents:   0%|          | 0/1 [00:00<?, ?it/s][Subtask] Checking prior processed documents: 100%|██████████| 1/1 [00:00<00:00, 930.41it/s]
+[Subtask] Cleaning...:   0%|          | 0/1 [00:00<?, ?it/s][Subtask] Cleaning...: 100%|██████████| 1/1 [00:00<00:00, 52.26it/s]
+[Task] Segment
+Using default Kraken line segmenter.
+[Subtask] Checking prior processed documents:   0%|          | 0/12 [00:00<?, ?it/s][Subtask] Checking prior processed documents: 100%|██████████| 12/12 [00:00<00:00, 1785.38it/s]
+[Subtask] Processing YALTAi segmenter command:   0%|          | 0/12 [00:00<?, ?it/s][Subtask] Processing YALTAi segmenter command:   0%|          | 0/12 [06:02<?, ?it/s]
+INPUT SIZE DIFF WITH OUTPUT SIZE
+[]
+
+INPUT SIZE DIFF WITH OUTPUT SIZE
+[]
+INPUT SIZE DIFF WITH OUTPUT SIZE
+[]
+
+INPUT SIZE DIFF WITH OUTPUT SIZE
+[]
+[Task] Clean-Up Serialization
+[Subtask] Checking prior processed documents: 0it [00:00, ?it/s][Subtask] Checking prior processed documents: 0it [00:00, ?it/s]
+Nothing to process here.
+[Task] OCR
+[Subtask] Checking prior processed documents: 0it [00:00, ?it/s][Subtask] Checking prior processed documents: 0it [00:00, ?it/s]
+Nothing to process here.
+[Task] Extract
+[Subtask] Checking prior processed documents: 0it [00:00, ?it/s][Subtask] Checking prior processed documents: 0it [00:00, ?it/s]
+Nothing to process here.
+[Task] Segment
+Using default Kraken line segmenter.
+[Subtask] Checking prior processed documents:   0%|          | 0/7 [00:00<?, ?it/s][Subtask] Checking prior processed documents: 100%|██████████| 7/7 [00:00<00:00, 1713.86it/s]
+slurmstepd: error: *** JOB 925077 ON cpu001 CANCELLED AT 2025-06-30T16:27:23 DUE TO TIME LIMIT ***
+[Subtask] Processing YALTAi segmenter command:   0%|          | 0/7 [00:00<?, ?it/s]slurmstepd: error: *** STEP 925077.1 ON cpu001 CANCELLED AT 2025-06-30T16:27:23 DUE TO TIME LIMIT ***
+srun: Job step aborted: Waiting up to 92 seconds for job step to finish.

@@ -1,0 +1,23 @@
+(env) (baobab)-[philipm@login1 rtk]$ salloc --partition=shared-cpu --time=00:30:00 --cpus-per-task=4 --mem=32GB
+salloc: Pending job allocation 926940
+salloc: job 926940 queued and waiting for resources
+salloc: job 926940 has been allocated resources
+salloc: Granted job allocation 926940
+salloc: Nodes cpu321 are ready for job
+bash-5.1$ source env/bin/activate
+(env) bash-5.1$ python rtk-script-taton.py
+[Task] Segment
+Using default Kraken line segmenter.
+[Subtask] Checking prior processed documents: 100%|████████████████████████████████████████████████████████████| 86/86 [00:00<00:00, 4129.91it/s]
+[Subtask] Processing YALTAi segmenter command:  55%|█████████████████████████████████▎                           | 47/86 [10:13<06:32, 10.07s/it][Subtask] Processing YALTAi segmenter command: 100%|█████████████████████████████████████████████████████████████| 86/86 [18:27<00:00, 12.88s/it][Task] Clean-Up Serialization
+[Subtask] Checking prior processed documents: 100%|█████████████████████████████████████████████████████████████| 86/86 [00:00<00:00, 341.41it/s]
+[Subtask] Cleaning...: 100%|████████████████████████████████████████████████████████████████████████████████████| 86/86 [00:00<00:00, 419.33it/s]
+[Task] OCR
+[Subtask] Checking prior processed documents: 100%|█████████████████████████████████████████████████████████████| 86/86 [00:00<00:00, 561.26it/s]
+[Subtask] Processing Kraken recognizer command: 100%|████████████████████████████████████████████████████████████| 86/86 [10:48<00:00,  7.54s/it]
+[Task] Extract
+[Subtask] Checking prior processed documents: 100%|████████████████████████████████████████████████████████████| 86/86 [00:00<00:00, 3926.99it/s]
+[Subtask] Cleaning...: 100%|████████████████████████████████████████████████████████████████████████████████████| 86/86 [00:00<00:00, 135.90it/s]
+(env) bash-5.1$ salloc: Job 926940 has exceeded its time limit and its allocation has been revoked.
+                                                                                                   srun: Job step aborted: Waiting up to 92 seconds for job step to finish.
+slurmstepd: error: *** STEP 926940.interactive ON cpu321 CANCELLED AT 2025-06-30T17:52:54 DUE TO TIME LIMIT ***

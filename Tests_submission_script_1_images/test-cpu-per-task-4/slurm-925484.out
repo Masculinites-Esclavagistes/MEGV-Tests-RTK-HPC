@@ -1,0 +1,56 @@
+=====
+============DATETIME=========
+Mon Jun 30 04:37:14 PM CEST 2025
+RTK running
+[Task] Segment
+Using default Kraken line segmenter.
+[Subtask] Checking prior processed documents:   0%|          | 0/15 [00:00<?, ?it/s][Subtask] Checking prior processed documents: 100%|██████████| 15/15 [00:00<00:00, 1714.71it/s]
+[Subtask] Processing YALTAi segmenter command:   0%|          | 0/12 [00:00<?, ?it/s][Subtask] Processing YALTAi segmenter command:   0%|          | 0/12 [06:03<?, ?it/s]
+INPUT SIZE DIFF WITH OUTPUT SIZE
+[]
+
+INPUT SIZE DIFF WITH OUTPUT SIZE
+[]
+INPUT SIZE DIFF WITH OUTPUT SIZE
+[]
+
+INPUT SIZE DIFF WITH OUTPUT SIZE
+[]
+[Task] Clean-Up Serialization
+[Subtask] Checking prior processed documents:   0%|          | 0/3 [00:00<?, ?it/s][Subtask] Checking prior processed documents:  33%|███▎      | 1/3 [00:00<00:00,  9.76it/s][Subtask] Checking prior processed documents: 100%|██████████| 3/3 [00:00<00:00, 24.64it/s]
+[Subtask] Cleaning...:   0%|          | 0/1 [00:00<?, ?it/s][Subtask] Cleaning...: 100%|██████████| 1/1 [00:00<00:00, 27.49it/s]
+[Task] OCR
+[Subtask] Checking prior processed documents:   0%|          | 0/3 [00:00<?, ?it/s][Subtask] Checking prior processed documents: 100%|██████████| 3/3 [00:00<00:00, 103.45it/s]
+Nothing to process here.
+[Task] Extract
+[Subtask] Checking prior processed documents:   0%|          | 0/1 [00:00<?, ?it/s][Subtask] Checking prior processed documents: 100%|██████████| 1/1 [00:00<00:00, 1549.43it/s]
+Nothing to process here.
+[Task] Segment
+Using default Kraken line segmenter.
+[Subtask] Checking prior processed documents:   0%|          | 0/12 [00:00<?, ?it/s][Subtask] Checking prior processed documents: 100%|██████████| 12/12 [00:00<00:00, 1629.07it/s]
+[Subtask] Processing YALTAi segmenter command:   0%|          | 0/12 [00:00<?, ?it/s][Subtask] Processing YALTAi segmenter command:   0%|          | 0/12 [06:00<?, ?it/s]
+INPUT SIZE DIFF WITH OUTPUT SIZE
+[]
+
+INPUT SIZE DIFF WITH OUTPUT SIZE
+[]
+INPUT SIZE DIFF WITH OUTPUT SIZE
+[]
+
+INPUT SIZE DIFF WITH OUTPUT SIZE
+[]
+[Task] Clean-Up Serialization
+[Subtask] Checking prior processed documents: 0it [00:00, ?it/s][Subtask] Checking prior processed documents: 0it [00:00, ?it/s]
+Nothing to process here.
+[Task] OCR
+[Subtask] Checking prior processed documents: 0it [00:00, ?it/s][Subtask] Checking prior processed documents: 0it [00:00, ?it/s]
+Nothing to process here.
+[Task] Extract
+[Subtask] Checking prior processed documents: 0it [00:00, ?it/s][Subtask] Checking prior processed documents: 0it [00:00, ?it/s]
+Nothing to process here.
+[Task] Segment
+Using default Kraken line segmenter.
+[Subtask] Checking prior processed documents:   0%|          | 0/7 [00:00<?, ?it/s][Subtask] Checking prior processed documents: 100%|██████████| 7/7 [00:00<00:00, 1670.47it/s]
+slurmstepd: error: *** JOB 925484 ON cpu001 CANCELLED AT 2025-06-30T16:52:22 DUE TO TIME LIMIT ***
+[Subtask] Processing YALTAi segmenter command:   0%|          | 0/7 [00:00<?, ?it/s]slurmstepd: error: *** STEP 925484.1 ON cpu001 CANCELLED AT 2025-06-30T16:52:27 DUE TO TIME LIMIT ***
+srun: Job step aborted: Waiting up to 92 seconds for job step to finish.
