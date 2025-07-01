@@ -1,0 +1,66 @@
+(baobab)-[philipm@login1 rtk]$ ls
+custom_check.py       HOWTO.md   krakenv        pytest.ini             requirements.txt  rtk-script-taton.py  slurm-856712.out  submission.sh
+env                   howto.png  manifests.txt  quickyaltaiinstall.sh  rtk               rtk-script-test.py   slurm-863221.out  tests
+example-manifests.py  images2    models         README.md              rtk-script.py     setup.py             slurm-863280.out  yaltaienv
+(baobab)-[philipm@login1 rtk]$ python --version
+Python 3.10.4
+(baobab)-[philipm@login1 rtk]$ source env/bin/activate
+(env) (baobab)-[philipm@login1 rtk]$ ls
+custom_check.py       howto.png  manifests.txt          README.md         rtk-script-taton.py  slurm-863221.out  yaltaienv
+env                   images     models                 requirements.txt  rtk-script-test.py   slurm-863280.out
+example-manifests.py  images2    pytest.ini             rtk               setup.py             submission.sh
+HOWTO.md              krakenv    quickyaltaiinstall.sh  rtk-script.py     slurm-856712.out     tests
+(env) (baobab)-[philipm@login1 rtk]$ salloc --partition=shared-cpu --time=00:30:00 --cpus-per-task=4 --mem=32GB
+salloc: Pending job allocation 924779
+salloc: job 924779 queued and waiting for resources
+salloc: job 924779 has been allocated resources
+salloc: Granted job allocation 924779
+salloc: Waiting for resource configuration
+salloc: Nodes cpu298 are ready for job
+bash-5.1$ source env/bin/activate
+(env) bash-5.1$ ls
+custom_check.py       howto.png  manifests.txt		README.md	  rtk-script-taton.py  slurm-863221.out  yaltaienv
+env		      images	 models			requirements.txt  rtk-script-test.py   slurm-863280.out
+example-manifests.py  images2	 pytest.ini		rtk		  setup.py	       submission.sh
+HOWTO.md	      krakenv	 quickyaltaiinstall.sh	rtk-script.py	  slurm-856712.out     tests
+(env) bash-5.1$ python rtk-script-taton.py
+[Task] Segment
+Using default Kraken line segmenter.
+[Subtask] Checking prior processed documents: 100%|████████████████████████████████████████████████████████████| 13/13 [00:00<00:00, 3805.02it/s]
+[Subtask] Processing YALTAi segmenter command: 100%|█████████████████████████████████████████████████████████████| 13/13 [03:23<00:00, 15.62s/it]
+[Task] Clean-Up Serialization
+[Subtask] Checking prior processed documents: 100%|█████████████████████████████████████████████████████████████| 13/13 [00:00<00:00, 553.21it/s]
+[Subtask] Cleaning...: 100%|████████████████████████████████████████████████████████████████████████████████████| 13/13 [00:00<00:00, 404.04it/s]
+[Task] OCR
+[Subtask] Checking prior processed documents: 100%|█████████████████████████████████████████████████████████████| 13/13 [00:00<00:00, 586.16it/s]
+[Subtask] Processing Kraken recognizer command: 100%|████████████████████████████████████████████████████████████| 13/13 [02:03<00:00,  9.48s/it]
+[Task] Extract
+[Subtask] Checking prior processed documents: 100%|████████████████████████████████████████████████████████████| 13/13 [00:00<00:00, 3197.44it/s]
+[Subtask] Cleaning...: 100%|████████████████████████████████████████████████████████████████████████████████████| 13/13 [00:00<00:00, 128.19it/s]
+[Task] Segment
+Using default Kraken line segmenter.
+[Subtask] Checking prior processed documents: 100%|████████████████████████████████████████████████████████████| 12/12 [00:00<00:00, 4369.83it/s]
+[Subtask] Processing YALTAi segmenter command: 100%|█████████████████████████████████████████████████████████████| 12/12 [02:49<00:00, 14.15s/it]
+[Task] Clean-Up Serialization
+[Subtask] Checking prior processed documents: 100%|█████████████████████████████████████████████████████████████| 12/12 [00:00<00:00, 547.02it/s]
+[Subtask] Cleaning...: 100%|████████████████████████████████████████████████████████████████████████████████████| 12/12 [00:00<00:00, 391.19it/s]
+[Task] OCR
+[Subtask] Checking prior processed documents: 100%|█████████████████████████████████████████████████████████████| 12/12 [00:00<00:00, 546.28it/s]
+[Subtask] Processing Kraken recognizer command: 100%|████████████████████████████████████████████████████████████| 11/11 [01:33<00:00,  8.49s/it]
+[Task] Extract
+[Subtask] Checking prior processed documents: 100%|████████████████████████████████████████████████████████████| 12/12 [00:00<00:00, 1499.48it/s]
+[Subtask] Cleaning...: 100%|████████████████████████████████████████████████████████████████████████████████████| 12/12 [00:00<00:00, 122.70it/s]
+[Task] Segment
+Using default Kraken line segmenter.
+[Subtask] Checking prior processed documents: 100%|██████████████████████████████████████████████████████████████| 7/7 [00:00<00:00, 1875.09it/s]
+[Subtask] Processing YALTAi segmenter command: 100%|███████████████████████████████████████████████████████████████| 7/7 [02:00<00:00, 17.15s/it]
+[Task] Clean-Up Serialization
+[Subtask] Checking prior processed documents: 100%|███████████████████████████████████████████████████████████████| 7/7 [00:00<00:00, 333.88it/s]
+[Subtask] Cleaning...: 100%|██████████████████████████████████████████████████████████████████████████████████████| 7/7 [00:00<00:00, 268.16it/s]
+[Task] OCR
+[Subtask] Checking prior processed documents: 100%|███████████████████████████████████████████████████████████████| 7/7 [00:00<00:00, 424.69it/s]
+[Subtask] Processing Kraken recognizer command: 100%|██████████████████████████████████████████████████████████████| 7/7 [00:52<00:00,  7.57s/it]
+[Task] Extract
+[Subtask] Checking prior processed documents: 100%|██████████████████████████████████████████████████████████████| 7/7 [00:00<00:00, 2731.43it/s]
+[Subtask] Cleaning...: 100%|██████████████████████████████████████████████████████████████████████████████████████| 7/7 [00:00<00:00, 207.25it/s]
+(env) bash-5.1$ 
